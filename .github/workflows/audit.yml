@@ -1,0 +1,23 @@
+name: Security Audit
+
+on:
+  push:
+    branches: [ "main" ]
+    paths:
+      - '**/Cargo.toml'
+      - '**/Cargo.lock'
+
+env:
+  CARGO_TERM_COLOR: always
+
+jobs:
+  security_audit:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Audit Check
+        # https://github.com/rustsec/audit-check/issues/2
+        uses: rustsec/audit-check@master
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
