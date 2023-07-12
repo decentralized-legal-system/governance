@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "canisters": {
+    "governance_backend": {
+      "type": "rust",
+      "package": "governance_backend",
+      "candid": "src/governance_backend/governance_backend.did"
+    },
+    "governance_frontend": {
+      "type": "assets",
+      "source": [
+        "src/governance_frontend/assets"
+      ],
+      "dependencies": [
+        "governance_backend"
+      ]
+    }
+  },
+  "defaults": {
+    "build": {
+      "packtool": "",
+      "args": ""
+    }
+  },
+  "output_env_file": ".env"
+}
