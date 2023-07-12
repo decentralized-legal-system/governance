@@ -12,6 +12,6 @@ license = "MIT"
 crate-type = ["cdylib"]
 
 [dependencies]
-candid = "0.8"
+candid = "0.9"
 ic-cdk = "0.9.2"
 ic-cdk-timers = "0.3.0" # Feel free to remove this dependency if you don't need timers
