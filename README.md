@@ -1,5 +1,17 @@
 # Governance Layer
 
+[![MIT licensed][mit-badge]][mit-url]
+![Audit][audit-url]
+![Clippy][clippy-url]
+
+[mit-badge]: https://img.shields.io/badge/License-MIT-blue.svg
+[mit-url]: https://github.com/deepcausality-rs/deep_causality/blob/main/LICENSE
+
+[audit-url]: https://github.com/deepcausality-rs/deep_causality/actions/workflows/audit.yml/badge.svg
+[clippy-url]: https://github.com/deepcausality-rs/deep_causality/actions/workflows/rust-clippy.yml/badge.svg
+
+[//]: # ([test-url]: https://github.com/deepcausality-rs/deep_causality/actions/workflows/run_tests.yml/badge.svg)
+
 An exploration of building the governance layer on the IC blockhain.
 
 ## Goals
