@@ -20,9 +20,10 @@ An exploration of building the governance layer on the IC blockhain.
 2) Resolves: Combines legal and technical smart contracts that are both, legally enforceable through arbitration as well
    as technical enforceable through the enforcement layer.
 3) Responsibilities:
-   a. Creates, Reads, Updates, Deletes legal frameworks.
-   b. Creates, Reads, Updates, Deletes contracts under a legal framework.
-   c. Establishes amendment rules for legal frameworks and linked contracts.
+
+   * Creates, Reads, Updates, Deletes legal frameworks.
+   * Creates, Reads, Updates, Deletes contracts under a legal framework.
+   * Establishes amendment rules for legal frameworks and linked contracts.
 4) Requires: None
 
 ## 🗺️ Concepts
