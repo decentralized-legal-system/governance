@@ -5,14 +5,22 @@
 ![Clippy][clippy-url]
 
 [mit-badge]: https://img.shields.io/badge/License-MIT-blue.svg
-[mit-url]: https://github.com/deepcausality-rs/deep_causality/blob/main/LICENSE
 
-[audit-url]: https://github.com/deepcausality-rs/deep_causality/actions/workflows/audit.yml/badge.svg
-[clippy-url]: https://github.com/deepcausality-rs/deep_causality/actions/workflows/rust-clippy.yml/badge.svg
+[mit-url]: https://github.com/decentralized-legal-system/governance/blob/main/LICENSE
 
-[//]: # ([test-url]: https://github.com/deepcausality-rs/deep_causality/actions/workflows/run_tests.yml/badge.svg)
+[audit-url]: https://github.com/decentralized-legal-system/governance/actions/workflows/audit.yml/badge.svg
+
+[clippy-url]: https://github.com/decentralized-legal-system/governance/actions/workflows/rust-clippy.yml/badge.svg
 
 An exploration of building the governance layer on the IC blockhain.
+
+The governing layer performs two main functions:
+
+1) Sets out the general principles of the agreement (governing laws, details of the agreement, considerations of the
+   parties),
+2) Sets out parameters to be enforced.
+
+It can even set like industry wide standards.
 
 ## 🔥 Goals
 
@@ -21,9 +29,9 @@ An exploration of building the governance layer on the IC blockhain.
    as technical enforceable through the enforcement layer.
 3) Responsibilities:
 
-   * Creates, Reads, Updates, Deletes legal frameworks.
-   * Creates, Reads, Updates, Deletes contracts under a legal framework.
-   * Establishes amendment rules for legal frameworks and linked contracts.
+    * Creates, Reads, Updates, Deletes legal frameworks.
+    * Creates, Reads, Updates, Deletes contracts under a legal framework.
+    * Establishes amendment rules for legal frameworks and linked contracts.
 4) Requires: None
 
 ## 🗺️ Concepts
@@ -55,16 +63,6 @@ before all make commands work:
     make test           Runs all tests across all crates.
 ```
 
-## 👷 Development
-
-If you want to start working on your project right away, you might want to try the following commands:
-
-```bash
-cd governance/
-dfx help
-dfx canister --help
-```
-
 ## 🏠 Running the project locally
 
 If you want to test your project locally, you can use the following commands:
@@ -88,7 +86,7 @@ If you have made changes to your backend canister, you can generate a new candid
 npm run generate
 ```
 
-at any time. This is recommended before starting the frontend development server, 
+at any time. This is recommended before starting the frontend development server,
 and will be run automatically any time you run `dfx deploy`.
 
 ## 👨‍💻👩‍💻 Contribution
@@ -103,7 +101,6 @@ shall be licensed under the MIT license without additional terms or conditions.
 ## 📜 Licence
 
 This project is licensed under the [MIT license](LICENSE).
-
 
 ## 💻 Author
 
