@@ -22,6 +22,10 @@ The governing layer performs two main functions:
 
 It can even set like industry wide standards.
 
+## Status
+
+Very early pre-alpha experimentation with random changes that may break things at any time. 
+
 ## 🔥 Goals
 
 1) Role: Provides the governing legal framework
