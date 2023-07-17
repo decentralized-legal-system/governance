@@ -213,6 +213,29 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "c2e66c9d817f1720209181c316d28635c050fa304f9c79e47a520882661b7308"
 
 [[package]]
+name = "dcl_data_structures"
+version = "0.4.4"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "a4ecfcb44219ec2d3a621ac7243b2410f73b53f794aac73cc4e8dbdd1d505116"
+
+[[package]]
+name = "deep_causality"
+version = "0.2.4"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "2f0cb172be4af5f44ff5b004a740bf0c7460520c0b73eaf15e4d6aaeb415d3e5"
+dependencies = [
+ "dcl_data_structures",
+ "deep_causality_macros",
+ "petgraph",
+]
+
+[[package]]
+name = "deep_causality_macros"
+version = "0.4.4"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "f79e0c3ddd1d78ebc6787ec0f55b03e7b190910e44c34fa08a17acadcb92df06"
+
+[[package]]
 name = "diff"
 version = "0.1.13"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -329,6 +352,7 @@ name = "governance_backend"
 version = "0.1.0"
 dependencies = [
  "candid",
+ "deep_causality",
  "ic-cdk",
  "ic-cdk-macros",
  "ic-stable-structures",
