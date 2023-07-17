@@ -220,9 +220,9 @@ checksum = "a4ecfcb44219ec2d3a621ac7243b2410f73b53f794aac73cc4e8dbdd1d505116"
 
 [[package]]
 name = "deep_causality"
-version = "0.2.4"
+version = "0.2.7"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "2f0cb172be4af5f44ff5b004a740bf0c7460520c0b73eaf15e4d6aaeb415d3e5"
+checksum = "f3670e9113dd335cc60c822ce04129c82be462e2e22820a1ff3abf28e287737e"
 dependencies = [
  "dcl_data_structures",
  "deep_causality_macros",
