@@ -11,7 +11,7 @@
 .dfx/
 
 # generated files
-src/declarations/
+crates/declarations/
 
 # rust
 target/
