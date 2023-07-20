@@ -390,7 +390,7 @@ dependencies = [
 name = "governance_backend"
 version = "0.1.0"
 dependencies = [
- "candid 0.8.4",
+ "candid 0.9.1",
  "deep_causality",
  "ic-cdk",
  "ic-cdk-macros 0.6.10",
