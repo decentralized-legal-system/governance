@@ -12,7 +12,7 @@ license = "MIT"
 crate-type = ["cdylib"]
 
 [dependencies]
-candid = "0.9.1"
+candid = "0.9.8"
 ic-cdk = "0.10.0"
 ic-cdk-macros = "0.7.0"
 ic-stable-structures = "0.5.6"
